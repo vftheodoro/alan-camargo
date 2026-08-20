@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+coverage
+.vercel
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+lighthouse-*.json
+local-*.png
+mobile-*.png
+.DS_Store
+Thumbs.db

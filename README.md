@@ -49,4 +49,3 @@ Fotografias, imagens geradas e identidade visual são autorizadas exclusivamente
 ## Deploy
 
 A branch `main` é conectada à Vercel e publica automaticamente em produção. Branches adicionais geram URLs de preview.
-

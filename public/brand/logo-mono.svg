@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" fill="none">
+  <g transform="translate(2 4)" stroke="#111">
+    <path d="M17 48 31.8 13 47 48M22.5 37.5h19" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M49.8 21.6c8.7 10 5.7 22.6-5.7 28.2-11.4 5.6-27 2-34.8-8-7.8-10-4.8-22.6 6.6-28.2 8.7-4.3 19.8-3.2 28.1 2.2" stroke-width="2.2" stroke-linecap="round"/>
+  </g>
+  <text x="78" y="32" fill="#111" font-family="Georgia,serif" font-size="25" letter-spacing="1.2">ALAN CAMARGO</text>
+  <text x="80" y="53" fill="#111" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.1">PSICOTERAPEUTA · NUTRICIONISTA</text>
+</svg>
