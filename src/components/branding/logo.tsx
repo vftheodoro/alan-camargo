@@ -12,11 +12,13 @@ export function Logo({ compact = false }: LogoProps) {
       <Image
         aria-hidden="true"
         className={compact ? "brand-mark" : "brand-lockup"}
-        src={compact ? "/brand/alan-camargo-mark.png" : "/brand/alan-camargo-logo.png"}
+        src={compact ? "/brand/alan-camargo-mark.webp" : "/brand/alan-camargo-logo.webp"}
         alt=""
         width={compact ? 400 : 1374}
         height={compact ? 400 : 570}
         sizes={compact ? "56px" : "(max-width: 720px) 145px, 176px"}
+        loading="eager"
+        fetchPriority="high"
       />
     </Link>
   );
