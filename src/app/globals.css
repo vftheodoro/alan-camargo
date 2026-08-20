@@ -267,34 +267,19 @@ h3 {
 .brand-logo {
   display: inline-flex;
   align-items: center;
-  gap: 11px;
 }
 
 .brand-mark {
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
   flex: none;
+  object-fit: contain;
 }
 
-.brand-wordmark {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.brand-wordmark strong {
-  font-family: var(--font-serif), Georgia, serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.1;
-}
-
-.brand-wordmark small {
-  font-size: 0.56rem;
-  font-weight: 650;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+.brand-lockup {
+  width: 176px;
+  height: auto;
+  object-fit: contain;
 }
 
 .desktop-nav {
@@ -1461,8 +1446,13 @@ h3 {
     padding: 78px 0;
   }
 
-  .brand-wordmark small {
-    display: none;
+  .brand-mark {
+    width: 48px;
+    height: 48px;
+  }
+
+  .brand-lockup {
+    width: 145px;
   }
 
   .hero {
