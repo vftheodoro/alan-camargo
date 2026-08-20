@@ -40,7 +40,7 @@ export default function HomePage() {
         <div className="shell hero-content">
           <p className="eyebrow light">Psicoterapia · Nutrição</p>
           <h1>
-            Torne-se quem
+            Torne‑se quem
             <em> você é.</em>
           </h1>
           <p className="hero-lead">
