@@ -55,6 +55,7 @@ export function ServicePage({ service }: { service: Service }) {
               alt={`Alan Camargo — atendimento de ${service.title}`}
               fill
               priority
+              unoptimized
               sizes="(max-width: 900px) 100vw, 42vw"
               className="cover-image"
             />
