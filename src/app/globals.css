@@ -1340,6 +1340,59 @@ h3 {
   gap: 20px;
 }
 
+.footer-credit {
+  display: flex;
+  justify-content: center;
+  padding: 22px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.footer-credit-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #d7dfdd;
+}
+
+.footer-credit-link img {
+  width: 35px;
+  height: 28px;
+}
+
+.footer-credit-link span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.footer-credit-link strong {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.footer-credit-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.footer-credit-link small {
+  color: #78908b;
+  font-size: 0.55rem;
+  line-height: 1;
+}
+
+.footer-credit-link:hover strong {
+  color: white;
+}
+
+.footer-credit-link:focus-visible {
+  border-radius: 4px;
+}
+
 @media (max-width: 980px) {
   .desktop-nav,
   .header-cta {

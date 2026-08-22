@@ -59,6 +59,22 @@ export function Footer() {
           <Link href="/termos">Termos</Link>
         </div>
       </div>
+      <div className="footer-credit">
+        <a
+          className="footer-credit-link"
+          href="https://bythe.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Site criado pela Bythe"
+        >
+          <img src="/brand/bythe.svg" alt="Bythe" width="35" height="28" />
+          <span>
+            <span className="footer-credit-label">Site criado pela</span>
+            <strong>BYTHE</strong>
+            <small>Sites, sistemas e presença digital</small>
+          </span>
+        </a>
+      </div>
     </footer>
   );
 }
