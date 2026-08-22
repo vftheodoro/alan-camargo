@@ -52,13 +52,6 @@ export function Footer() {
           </p>
         </div>
       </div>
-      <div className="shell footer-bottom">
-        <p>© {new Date().getFullYear()} Alan Camargo Alves.</p>
-        <div>
-          <Link href="/privacidade">Privacidade</Link>
-          <Link href="/termos">Termos</Link>
-        </div>
-      </div>
       <div className="footer-credit">
         <a
           className="footer-credit-link"
@@ -74,6 +67,13 @@ export function Footer() {
             <small>Sites, sistemas e presença digital</small>
           </span>
         </a>
+      </div>
+      <div className="shell footer-bottom">
+        <p>© {new Date().getFullYear()} Alan Camargo Alves.</p>
+        <div>
+          <Link href="/privacidade">Privacidade</Link>
+          <Link href="/termos">Termos</Link>
+        </div>
       </div>
     </footer>
   );
