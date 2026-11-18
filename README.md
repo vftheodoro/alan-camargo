@@ -49,3 +49,25 @@ Fotografias, imagens geradas e identidade visual são autorizadas exclusivamente
 ## Deploy
 
 A branch `main` é conectada à Vercel e publica automaticamente em produção. Branches adicionais geram URLs de preview.
+
+
+## Organização técnica
+
+| Diretório | Responsabilidade |
+| --- | --- |
+| `src/app` | Páginas públicas, rotas institucionais e documentos legais |
+| `src/components` | Elementos visuais, navegação, chamadas para agendamento e dados estruturados |
+| `src/data/site.ts` | Fonte editorial para textos, contatos, serviços e políticas |
+| `src/lib` | Formatação e construção de links/ações de contato |
+| `src/types` | Contratos de conteúdo em TypeScript |
+
+## Revisão antes da publicação
+
+1. Conferir textos, contatos, preços, títulos profissionais e informações de agendamento com o responsável.
+2. Executar `npm run lint`, `npm run typecheck`, `npm test` e `npm run build`.
+3. Revisar metadados, páginas legais, navegação e links de contato no preview da Vercel.
+4. Confirmar autorização para imagens e identidade visual antes de incorporá-las.
+
+## Limites e responsabilidade
+
+Este é um site de apresentação profissional, não um prontuário, plataforma clínica ou sistema de aconselhamento de saúde. Nenhuma alegação de formação, registro, resultado terapêutico ou credencial deve ser publicada sem confirmação documental. Os ativos e textos dos clientes não são disponibilizados sob licença aberta.
